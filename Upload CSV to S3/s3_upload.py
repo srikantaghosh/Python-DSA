@@ -9,7 +9,7 @@ client = boto3.client('s3')
 bucket = 'vscodeupload3012'
 cur_path = os.getcwd()
 
-file = 'crypto_api.csv'
+file = 'crypto1.csv'
 
 
 filename = '/Applications/Ramos/Coding Repo/ProjectLord/crypto.csv'
