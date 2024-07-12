@@ -19,7 +19,7 @@ for x in myjson['data']:
     listing = [x['symbol'],x['name'],x['priceUsd']]
     ourdata.append(listing)
 
-with open('crypto.csv','w', encoding='UTF8', newline='') as f:
+with open('crypto1.csv','w', encoding='UTF8', newline='') as f:
     writer =  csv.writer(f)
 
     writer.writerow(csvheader)
